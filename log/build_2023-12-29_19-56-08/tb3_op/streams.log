@@ -1,0 +1,23 @@
+[0.255s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[0.296s] [100%] Built target tb3_op_node
+[0.304s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[0.327s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op
+[0.333s] -- Install configuration: ""
+[0.333s] -- Execute custom install script
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/lib/tb3_op/tb3_op_node
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/package_run_dependencies/tb3_op
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/parent_prefix_path/tb3_op
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.sh
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.dsv
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.sh
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.dsv
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.bash
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.sh
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.zsh
+[0.334s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.dsv
+[0.335s] -- Symlinking: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.dsv
+[0.341s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/packages/tb3_op
+[0.341s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig.cmake
+[0.341s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig-version.cmake
+[0.341s] -- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.xml
+[0.343s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op

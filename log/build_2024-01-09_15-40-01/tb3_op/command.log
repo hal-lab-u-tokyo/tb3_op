@@ -1,0 +1,4 @@
+Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op
+Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op

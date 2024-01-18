@@ -1,0 +1,86 @@
+[0.040s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meip-users/tb3_op/src/tb3_op -DCMAKE_INSTALL_PREFIX=/home/meip-users/tb3_op/install/tb3_op
+[0.068s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.167s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.180s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.212s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.215s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.220s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.288s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.289s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.380s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.499s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.703s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.779s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.779s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/meip-users/tb3_op/src/tb3_op/include>
+[0.780s] -- Configured cppcheck exclude dirs and/or files: 
+[0.780s] -- Added test 'lint_cmake' to check CMake code style
+[0.782s] -- Added test 'uncrustify' to check C / C++ code style
+[0.782s] -- Configured uncrustify additional arguments: 
+[0.783s] -- Added test 'xmllint' to check XML markup files
+[0.785s] -- Configuring done
+[0.798s] -- Generating done
+[0.799s] -- Build files have been written to: /home/meip-users/tb3_op/build/tb3_op
+[0.805s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meip-users/tb3_op/src/tb3_op -DCMAKE_INSTALL_PREFIX=/home/meip-users/tb3_op/install/tb3_op
+[0.806s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[0.838s] [35m[1mConsolidate compiler generated dependencies of target tb3_op_node[0m
+[0.900s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o[0m
+[2.570s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K In function ‘[01m[Kvoid cmdCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.570s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:31:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.570s]    31 |   int [01;35m[Ki[m[K=0;
+[2.570s]       |       [01;35m[K^[m[K
+[2.570s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:30:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.570s]    30 | atic void cmdCallback([01;35m[Kconst geometry_msgs::msg::Twist::SharedPtr msg[m[K) {
+[2.570s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.570s] 
+[2.574s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.574s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:143:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+[2.574s]   143 |     sprintf([01;31m[Kbuffer[m[K[0], "%s_tb3_node", argv[1]);
+[2.574s]       |             [01;31m[K^~~~~~[m[K
+[2.574s]       |             [32m[Ksetbuffer[m[K
+[2.576s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:149:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+[2.577s]   149 |     sprintf([01;31m[Kbuffer[m[K[0], "tb3_node");
+[2.577s]       |             [01;31m[K^~~~~~[m[K
+[2.577s]       |             [32m[Ksetbuffer[m[K
+[2.579s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:156:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+[2.579s]   156 |   auto node = rclcpp::Node::make_shared([01;31m[Kbuffer[m[K[0]);
+[2.579s]       |                                         [01;31m[K^~~~~~[m[K
+[2.579s]       |                                         [32m[Ksetbuffer[m[K
+[2.579s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:158:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.579s]   158 |       node->create_publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K("cmd_vel", 10);
+[2.579s]       |                                                       [01;31m[K^[m[K
+[2.579s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:158:57:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.579s]   158 |       node->create_publisher<geometry_msgs::msg::Twist>([01;35m[K"cmd_vel"[m[K, 10);
+[2.579s]       |                                                         [01;35m[K^~~~~~~~~[m[K
+[2.579s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:160:55:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.579s]   160 |       node->create_publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K(buffer[1], 10);
+[2.579s]       |                                                       [01;31m[K^[m[K
+[2.579s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:161:74:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.580s]   161 | to subscriber = node->create_subscription<sensor_msgs::msg::LaserScan[01;31m[K>[m[K(
+[2.580s]       |                                                                      [01;31m[K^[m[K
+[2.580s] 
+[2.580s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:163:76:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.580s]   163 |  cmd_subscriber = node->create_subscription<geometry_msgs::msg::Twist[01;31m[K>[m[K(
+[2.580s]       |                                                                      [01;31m[K^[m[K
+[2.580s] 
+[2.580s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:164:7:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.580s]   164 |       [01;35m[K"cmd_vel"[m[K, 1, cmdCallback);
+[2.580s]       |       [01;35m[K^~~~~~~~~[m[K
+[2.580s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:164:21:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.580s]   164 |       "cmd_vel", 1, [01;35m[KcmdCallback[m[K);
+[2.580s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[2.886s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K At global scope:
+[2.886s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:95:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid move_for_3sec()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[2.886s]    95 | static void [01;35m[Kmove_for_3sec[m[K(void) {
+[2.886s]       |             [01;35m[K^~~~~~~~~~~~~[m[K
+[2.886s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:57:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat get_right_distance()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[2.886s]    57 | static float [01;35m[Kget_right_distance[m[K(void) {
+[2.886s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.886s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:40:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat get_forward_distance()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[2.886s]    40 | static float [01;35m[Kget_forward_distance[m[K(void) {
+[2.886s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.898s] gmake[2]: *** [CMakeFiles/tb3_op_node.dir/build.make:76: CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o] Error 1
+[2.898s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_op_node.dir/all] Error 2
+[2.898s] gmake: *** [Makefile:146: all] Error 2
+[2.900s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8

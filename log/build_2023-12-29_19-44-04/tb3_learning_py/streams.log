@@ -1,0 +1,23 @@
+[0.507s] Invoking command in '/home/meip-users/tb3_op/src/tb3_learning_py': PYTHONPATH=/home/meip-users/tb3_op/build/tb3_learning_py/prefix_override:/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_learning_py build --build-base /home/meip-users/tb3_op/build/tb3_learning_py/build install --record /home/meip-users/tb3_op/build/tb3_learning_py/install.log --single-version-externally-managed
+[0.672s] running egg_info
+[0.673s] writing ../../build/tb3_learning_py/tb3_learning_py.egg-info/PKG-INFO
+[0.673s] writing dependency_links to ../../build/tb3_learning_py/tb3_learning_py.egg-info/dependency_links.txt
+[0.673s] writing entry points to ../../build/tb3_learning_py/tb3_learning_py.egg-info/entry_points.txt
+[0.673s] writing requirements to ../../build/tb3_learning_py/tb3_learning_py.egg-info/requires.txt
+[0.673s] writing top-level names to ../../build/tb3_learning_py/tb3_learning_py.egg-info/top_level.txt
+[0.675s] reading manifest file '../../build/tb3_learning_py/tb3_learning_py.egg-info/SOURCES.txt'
+[0.675s] writing manifest file '../../build/tb3_learning_py/tb3_learning_py.egg-info/SOURCES.txt'
+[0.675s] running build
+[0.676s] running build_py
+[0.676s] running install
+[0.676s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.676s]   warnings.warn(
+[0.676s] running install_lib
+[0.677s] running install_data
+[0.677s] running install_egg_info
+[0.679s] removing '/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.679s] Copying ../../build/tb3_learning_py/tb3_learning_py.egg-info to /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py-0.0.0-py3.10.egg-info
+[0.679s] running install_scripts
+[0.694s] Installing tb3_learning_py script to /home/meip-users/tb3_op/install/tb3_learning_py/lib/tb3_learning_py
+[0.694s] writing list of installed files to '/home/meip-users/tb3_op/build/tb3_learning_py/install.log'
+[0.713s] Invoked command in '/home/meip-users/tb3_op/src/tb3_learning_py' returned '0': PYTHONPATH=/home/meip-users/tb3_op/build/tb3_learning_py/prefix_override:/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_learning_py build --build-base /home/meip-users/tb3_op/build/tb3_learning_py/build install --record /home/meip-users/tb3_op/build/tb3_learning_py/install.log --single-version-externally-managed

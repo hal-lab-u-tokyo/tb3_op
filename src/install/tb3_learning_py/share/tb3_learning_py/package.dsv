@@ -1,0 +1,6 @@
+source;share/tb3_learning_py/hook/pythonpath.ps1
+source;share/tb3_learning_py/hook/pythonpath.dsv
+source;share/tb3_learning_py/hook/pythonpath.sh
+source;share/tb3_learning_py/hook/ament_prefix_path.ps1
+source;share/tb3_learning_py/hook/ament_prefix_path.dsv
+source;share/tb3_learning_py/hook/ament_prefix_path.sh

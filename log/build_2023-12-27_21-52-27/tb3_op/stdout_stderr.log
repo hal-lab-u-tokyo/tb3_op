@@ -1,0 +1,21 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/meip-users/tb3_op/src/tb3_op/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/meip-users/tb3_op/build/tb3_op
+[35m[1mConsolidate compiler generated dependencies of target tb3_op_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o[0m
+[01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/std_msgs/msg/float64_multi_array.hpp: No such file or directory
+    3 | #include [01;31m[K"std_msgs/std_msgs/msg/float64_multi_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tb3_op_node.dir/build.make:76: CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_op_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

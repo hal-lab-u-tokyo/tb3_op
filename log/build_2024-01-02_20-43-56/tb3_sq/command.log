@@ -1,0 +1,4 @@
+Invoking command in '/home/meip-users/tb3_op/build/tb3_sq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_sq -- -j8 -l8
+Invoked command in '/home/meip-users/tb3_op/build/tb3_sq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_sq -- -j8 -l8
+Invoking command in '/home/meip-users/tb3_op/build/tb3_sq': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_sq
+Invoked command in '/home/meip-users/tb3_op/build/tb3_sq' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_sq

@@ -1,0 +1,23 @@
+[0.250s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[0.267s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.367s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.371s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.392s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.394s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.398s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.455s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.543s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.652s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.652s]   ament_target_dependencies() the passed package name 'geometry_msgs' was not
+[0.652s]   found before
+[0.652s] Call Stack (most recent call first):
+[0.652s]   CMakeLists.txt:17 (ament_target_dependencies)
+[0.652s] 
+[0.652s] [0m
+[0.652s] -- Configuring incomplete, errors occurred!
+[0.653s] See also "/home/meip-users/tb3_op/build/tb3_op/CMakeFiles/CMakeOutput.log".
+[0.657s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.659s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8

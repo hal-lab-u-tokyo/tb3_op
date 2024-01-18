@@ -1,0 +1,5 @@
+  File "/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py/tb3_learning_py.py", line 263
+    writer.writerow([i, self.trainer.reward_log[i], count_log[i], goal_log[i], goal_percentage_log[i])
+                                                                                                     ^
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
+

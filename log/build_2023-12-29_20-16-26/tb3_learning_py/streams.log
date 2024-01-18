@@ -1,0 +1,43 @@
+[0.589s] Invoking command in '/home/meip-users/tb3_op/src/tb3_learning_py': PYTHONPATH=/home/meip-users/tb3_op/build/tb3_learning_py/prefix_override:/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_learning_py build --build-base /home/meip-users/tb3_op/build/tb3_learning_py/build install --record /home/meip-users/tb3_op/build/tb3_learning_py/install.log --single-version-externally-managed
+[0.771s] running egg_info
+[0.771s] creating ../../build/tb3_learning_py/tb3_learning_py.egg-info
+[0.771s] writing ../../build/tb3_learning_py/tb3_learning_py.egg-info/PKG-INFO
+[0.771s] writing dependency_links to ../../build/tb3_learning_py/tb3_learning_py.egg-info/dependency_links.txt
+[0.771s] writing entry points to ../../build/tb3_learning_py/tb3_learning_py.egg-info/entry_points.txt
+[0.772s] writing requirements to ../../build/tb3_learning_py/tb3_learning_py.egg-info/requires.txt
+[0.772s] writing top-level names to ../../build/tb3_learning_py/tb3_learning_py.egg-info/top_level.txt
+[0.772s] writing manifest file '../../build/tb3_learning_py/tb3_learning_py.egg-info/SOURCES.txt'
+[0.773s] reading manifest file '../../build/tb3_learning_py/tb3_learning_py.egg-info/SOURCES.txt'
+[0.773s] writing manifest file '../../build/tb3_learning_py/tb3_learning_py.egg-info/SOURCES.txt'
+[0.773s] running build
+[0.773s] running build_py
+[0.774s] creating /home/meip-users/tb3_op/build/tb3_learning_py/build
+[0.774s] creating /home/meip-users/tb3_op/build/tb3_learning_py/build/lib
+[0.774s] creating /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py
+[0.774s] copying tb3_learning_py/fn_framework.py -> /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py
+[0.774s] copying tb3_learning_py/tb3_learning_py.py -> /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py
+[0.774s] copying tb3_learning_py/dqnagent.py -> /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py
+[0.774s] copying tb3_learning_py/__init__.py -> /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py
+[0.774s] running install
+[0.774s] running install_lib
+[0.774s] creating /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py
+[0.775s] copying /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py/fn_framework.py -> /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py
+[0.775s] copying /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py/tb3_learning_py.py -> /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py
+[0.775s] copying /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py/dqnagent.py -> /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py
+[0.775s] copying /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py/__init__.py -> /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py
+[0.775s] byte-compiling /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py/fn_framework.py to fn_framework.cpython-310.pyc
+[0.776s] byte-compiling /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py/tb3_learning_py.py to tb3_learning_py.cpython-310.pyc
+[0.778s] byte-compiling /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py/dqnagent.py to dqnagent.cpython-310.pyc
+[0.779s] byte-compiling /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py/__init__.py to __init__.cpython-310.pyc
+[0.779s] running install_data
+[0.779s] creating /home/meip-users/tb3_op/install/tb3_learning_py/share/ament_index
+[0.779s] creating /home/meip-users/tb3_op/install/tb3_learning_py/share/ament_index/resource_index
+[0.779s] creating /home/meip-users/tb3_op/install/tb3_learning_py/share/ament_index/resource_index/packages
+[0.779s] copying resource/tb3_learning_py -> /home/meip-users/tb3_op/install/tb3_learning_py/share/ament_index/resource_index/packages
+[0.780s] copying package.xml -> /home/meip-users/tb3_op/install/tb3_learning_py/share/tb3_learning_py
+[0.780s] running install_egg_info
+[0.781s] Copying ../../build/tb3_learning_py/tb3_learning_py.egg-info to /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py-0.0.0-py3.10.egg-info
+[0.781s] running install_scripts
+[0.795s] Installing tb3_learning_py script to /home/meip-users/tb3_op/install/tb3_learning_py/lib/tb3_learning_py
+[0.795s] writing list of installed files to '/home/meip-users/tb3_op/build/tb3_learning_py/install.log'
+[0.816s] Invoked command in '/home/meip-users/tb3_op/src/tb3_learning_py' returned '0': PYTHONPATH=/home/meip-users/tb3_op/build/tb3_learning_py/prefix_override:/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_learning_py build --build-base /home/meip-users/tb3_op/build/tb3_learning_py/build install --record /home/meip-users/tb3_op/build/tb3_learning_py/install.log --single-version-externally-managed

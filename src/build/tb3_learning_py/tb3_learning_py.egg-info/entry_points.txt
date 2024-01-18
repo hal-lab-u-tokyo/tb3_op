@@ -1,0 +1,3 @@
+[console_scripts]
+tb3_learning_py = tb3_learning_py.tb3_learning_py:main
+

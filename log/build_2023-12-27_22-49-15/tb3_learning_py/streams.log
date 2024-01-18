@@ -1,0 +1,20 @@
+[0.564s] Invoking command in '/home/meip-users/tb3_op/build/tb3_learning_py': PYTHONPATH=/home/meip-users/tb3_op/build/tb3_learning_py/prefix_override:/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/meip-users/tb3_op/build/tb3_learning_py/build --no-deps install_data
+[0.749s] running develop
+[0.749s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.750s]   warnings.warn(
+[0.750s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.751s]   warnings.warn(
+[0.878s] running egg_info
+[0.878s] writing tb3_learning_py.egg-info/PKG-INFO
+[0.878s] writing dependency_links to tb3_learning_py.egg-info/dependency_links.txt
+[0.879s] writing entry points to tb3_learning_py.egg-info/entry_points.txt
+[0.879s] writing requirements to tb3_learning_py.egg-info/requires.txt
+[0.879s] writing top-level names to tb3_learning_py.egg-info/top_level.txt
+[0.880s] reading manifest file 'tb3_learning_py.egg-info/SOURCES.txt'
+[0.881s] writing manifest file 'tb3_learning_py.egg-info/SOURCES.txt'
+[0.882s] running build_ext
+[0.882s] Creating /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3-learning-py.egg-link (link to .)
+[0.882s] Installing tb3_learning_py script to /home/meip-users/tb3_op/install/tb3_learning_py/lib/tb3_learning_py
+[0.883s] 
+[0.883s] Installed /home/meip-users/tb3_op/build/tb3_learning_py
+[0.883s] running install_data

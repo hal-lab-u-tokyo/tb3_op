@@ -1,0 +1,21 @@
+[0.546s] Invoking command in '/home/meip-users/tb3_op/build/tb3_learning_py': PYTHONPATH=/home/meip-users/tb3_op/build/tb3_learning_py/prefix_override:/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/meip-users/tb3_op/build/tb3_learning_py/build --no-deps install_data
+[0.724s] running develop
+[0.724s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.724s]   warnings.warn(
+[0.725s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.725s]   warnings.warn(
+[0.840s] running egg_info
+[0.840s] writing tb3_learning_py.egg-info/PKG-INFO
+[0.841s] writing dependency_links to tb3_learning_py.egg-info/dependency_links.txt
+[0.841s] writing entry points to tb3_learning_py.egg-info/entry_points.txt
+[0.841s] writing requirements to tb3_learning_py.egg-info/requires.txt
+[0.841s] writing top-level names to tb3_learning_py.egg-info/top_level.txt
+[0.843s] reading manifest file 'tb3_learning_py.egg-info/SOURCES.txt'
+[0.843s] writing manifest file 'tb3_learning_py.egg-info/SOURCES.txt'
+[0.844s] running build_ext
+[0.844s] Creating /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3-learning-py.egg-link (link to .)
+[0.845s] Installing tb3_learning_py script to /home/meip-users/tb3_op/install/tb3_learning_py/lib/tb3_learning_py
+[0.845s] 
+[0.845s] Installed /home/meip-users/tb3_op/build/tb3_learning_py
+[0.845s] running install_data
+[0.868s] Invoked command in '/home/meip-users/tb3_op/build/tb3_learning_py' returned '0': PYTHONPATH=/home/meip-users/tb3_op/build/tb3_learning_py/prefix_override:/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/meip-users/tb3_op/build/tb3_learning_py/build --no-deps install_data

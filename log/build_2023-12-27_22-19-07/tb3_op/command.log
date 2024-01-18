@@ -1,0 +1,4 @@
+Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meip-users/tb3_op/src/tb3_op -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/meip-users/tb3_op/install/tb3_op
+Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meip-users/tb3_op/src/tb3_op -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/meip-users/tb3_op/install/tb3_op
+Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8

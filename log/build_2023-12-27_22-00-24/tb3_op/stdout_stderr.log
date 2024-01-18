@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o[0m
+[01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmsg/int32.hpp: No such file or directory
+    3 | #include [01;31m[K"msg/int32.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/tb3_op_node.dir/build.make:76: CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_op_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

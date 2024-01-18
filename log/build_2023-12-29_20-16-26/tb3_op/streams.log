@@ -1,0 +1,89 @@
+[0.254s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meip-users/tb3_op/src/tb3_op -DCMAKE_INSTALL_PREFIX=/home/meip-users/tb3_op/install/tb3_op
+[0.292s] -- The C compiler identification is GNU 11.4.0
+[0.332s] -- The CXX compiler identification is GNU 11.4.0
+[0.337s] -- Detecting C compiler ABI info
+[0.385s] -- Detecting C compiler ABI info - done
+[0.391s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.391s] -- Detecting C compile features
+[0.392s] -- Detecting C compile features - done
+[0.394s] -- Detecting CXX compiler ABI info
+[0.449s] -- Detecting CXX compiler ABI info - done
+[0.454s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.454s] -- Detecting CXX compile features
+[0.455s] -- Detecting CXX compile features - done
+[0.457s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.577s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.637s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.665s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.669s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.674s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.744s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.746s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.813s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.832s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.871s] -- Looking for pthread.h
+[0.931s] -- Looking for pthread.h - found
+[0.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.979s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.981s] -- Found Threads: TRUE  
+[1.086s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.287s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.344s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.344s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/meip-users/tb3_op/src/tb3_op/include>
+[1.344s] -- Configured cppcheck exclude dirs and/or files: 
+[1.345s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.346s] -- Added test 'lint_cmake' to check CMake code style
+[1.347s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.351s] -- Added test 'uncrustify' to check C / C++ code style
+[1.352s] -- Configured uncrustify additional arguments: 
+[1.352s] -- Added test 'xmllint' to check XML markup files
+[1.353s] -- Configuring done
+[1.361s] -- Generating done
+[1.363s] -- Build files have been written to: /home/meip-users/tb3_op/build/tb3_op
+[1.371s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/meip-users/tb3_op/src/tb3_op -DCMAKE_INSTALL_PREFIX=/home/meip-users/tb3_op/install/tb3_op
+[1.372s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[1.411s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o[0m
+[2.977s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K In function ‘[01m[Kvoid cmdCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.977s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:31:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.977s]    31 |   int [01;35m[Ki[m[K=0;
+[2.977s]       |       [01;35m[K^[m[K
+[2.977s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:30:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.977s]    30 | atic void cmdCallback([01;35m[Kconst geometry_msgs::msg::Twist::SharedPtr msg[m[K) {
+[2.977s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.977s] 
+[5.230s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K At global scope:
+[5.231s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:95:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid move_for_3sec()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[5.231s]    95 | static void [01;35m[Kmove_for_3sec[m[K(void) {
+[5.231s]       |             [01;35m[K^~~~~~~~~~~~~[m[K
+[5.231s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:57:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat get_right_distance()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[5.231s]    57 | static float [01;35m[Kget_right_distance[m[K(void) {
+[5.231s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.231s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:40:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat get_forward_distance()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[5.231s]    40 | static float [01;35m[Kget_forward_distance[m[K(void) {
+[5.231s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.610s] [100%] [32m[1mLinking CXX executable tb3_op_node[0m
+[9.012s] [100%] Built target tb3_op_node
+[9.019s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[9.042s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op
+[9.047s] -- Install configuration: ""
+[9.047s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/lib/tb3_op/tb3_op_node
+[9.050s] -- Set runtime path of "/home/meip-users/tb3_op/install/tb3_op/lib/tb3_op/tb3_op_node" to ""
+[9.050s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/package_run_dependencies/tb3_op
+[9.050s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/parent_prefix_path/tb3_op
+[9.050s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.sh
+[9.050s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.dsv
+[9.050s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.sh
+[9.050s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.dsv
+[9.050s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.bash
+[9.050s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.sh
+[9.050s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.zsh
+[9.051s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.dsv
+[9.051s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.dsv
+[9.051s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/packages/tb3_op
+[9.051s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig.cmake
+[9.051s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig-version.cmake
+[9.051s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.xml
+[9.052s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op

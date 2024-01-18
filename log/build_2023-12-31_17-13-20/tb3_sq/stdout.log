@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target tb3_sq_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tb3_sq_node.dir/src/tb3_sq_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tb3_sq_node[0m
+[100%] Built target tb3_sq_node
+-- Install configuration: ""
+-- Installing: /home/meip-users/tb3_op/install/tb3_sq/lib/tb3_sq/tb3_sq_node
+-- Set runtime path of "/home/meip-users/tb3_op/install/tb3_sq/lib/tb3_sq/tb3_sq_node" to ""
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/ament_index/resource_index/package_run_dependencies/tb3_sq
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/ament_index/resource_index/parent_prefix_path/tb3_sq
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/environment/ament_prefix_path.sh
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/environment/path.sh
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/environment/path.dsv
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/local_setup.bash
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/local_setup.sh
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/local_setup.zsh
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/local_setup.dsv
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/package.dsv
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/ament_index/resource_index/packages/tb3_sq
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/cmake/tb3_sqConfig.cmake
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/cmake/tb3_sqConfig-version.cmake
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_sq/share/tb3_sq/package.xml

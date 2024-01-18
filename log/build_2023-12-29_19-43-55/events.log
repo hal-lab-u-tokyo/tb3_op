@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000137] (-) JobUnselected: {'identifier': 'tb3_learning_py'}
+[0.000159] (tb3_op) JobQueued: {'identifier': 'tb3_op', 'dependencies': OrderedDict()}
+[0.000174] (tb3_op) JobStarted: {'identifier': 'tb3_op'}
+[0.036087] (tb3_op) JobProgress: {'identifier': 'tb3_op', 'progress': 'cmake'}
+[0.036274] (tb3_op) JobProgress: {'identifier': 'tb3_op', 'progress': 'build'}
+[0.036911] (tb3_op) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/meip-users/tb3_op/build/tb3_op', '--', '-j8', '-l8'], 'cwd': '/home/meip-users/tb3_op/build/tb3_op', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'meip-users'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/meip-users'), ('OLDPWD', '/home/meip-users/tb3_op/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1858'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meip-users'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meip-users'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/meip-users/.cargo/bin:/home/meip-users/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MEIP-PC:@/tmp/.ICE-unix/1839,unix/MEIP-PC:/tmp/.ICE-unix/1839'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a159447_c3b2_4f54_a9d6_72499da81ade'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.224'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '57'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/meip-users/tb3_op/build/tb3_op'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066083] (tb3_op) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3_op_node\x1b[0m\n'}
+[0.077636] (tb3_op) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o\x1b[0m\n'}
+[0.099524] (-) TimerEvent: {}
+[0.199910] (-) TimerEvent: {}
+[0.300312] (-) TimerEvent: {}
+[0.400592] (-) TimerEvent: {}
+[0.500928] (-) TimerEvent: {}
+[0.601280] (-) TimerEvent: {}
+[0.701649] (-) TimerEvent: {}
+[0.802027] (-) TimerEvent: {}
+[0.902409] (-) TimerEvent: {}
+[1.002763] (-) TimerEvent: {}
+[1.103065] (-) TimerEvent: {}
+[1.203380] (-) TimerEvent: {}
+[1.303734] (-) TimerEvent: {}
+[1.404095] (-) TimerEvent: {}
+[1.504478] (-) TimerEvent: {}
+[1.601702] (tb3_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid cmdCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.601887] (tb3_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:31:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.601939] (tb3_op) StderrLine: {'line': b'   31 |   int \x1b[01;35m\x1b[Ki\x1b[m\x1b[K=0;\n'}
+[1.601980] (tb3_op) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.602019] (tb3_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:30:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.602059] (tb3_op) StderrLine: {'line': b'   30 | atic void cmdCallback(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::Twist::SharedPtr msg\x1b[m\x1b[K) {\n'}
+[1.602099] (tb3_op) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.602138] (tb3_op) StderrLine: {'line': b'\n'}
+[1.604634] (-) TimerEvent: {}
+[1.704957] (-) TimerEvent: {}
+[1.805334] (-) TimerEvent: {}
+[1.905694] (-) TimerEvent: {}
+[2.006071] (-) TimerEvent: {}
+[2.106454] (-) TimerEvent: {}
+[2.206777] (-) TimerEvent: {}
+[2.307070] (-) TimerEvent: {}
+[2.407365] (-) TimerEvent: {}
+[2.507730] (-) TimerEvent: {}
+[2.608098] (-) TimerEvent: {}
+[2.708469] (-) TimerEvent: {}
+[2.808817] (-) TimerEvent: {}
+[2.909169] (-) TimerEvent: {}
+[3.009537] (-) TimerEvent: {}
+[3.109904] (-) TimerEvent: {}
+[3.210273] (-) TimerEvent: {}
+[3.310647] (-) TimerEvent: {}
+[3.411006] (-) TimerEvent: {}
+[3.511372] (-) TimerEvent: {}
+[3.611669] (-) TimerEvent: {}
+[3.712021] (-) TimerEvent: {}
+[3.812387] (-) TimerEvent: {}
+[3.838305] (tb3_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.838463] (tb3_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:95:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid move_for_3sec()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.838517] (tb3_op) StderrLine: {'line': b'   95 | static void \x1b[01;35m\x1b[Kmove_for_3sec\x1b[m\x1b[K(void) {\n'}
+[3.838567] (tb3_op) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.838605] (tb3_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:57:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat get_right_distance()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.838647] (tb3_op) StderrLine: {'line': b'   57 | static float \x1b[01;35m\x1b[Kget_right_distance\x1b[m\x1b[K(void) {\n'}
+[3.838698] (tb3_op) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.838752] (tb3_op) StderrLine: {'line': b'\x1b[01m\x1b[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:40:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat get_forward_distance()\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.838813] (tb3_op) StderrLine: {'line': b'   40 | static float \x1b[01;35m\x1b[Kget_forward_distance\x1b[m\x1b[K(void) {\n'}
+[3.838875] (tb3_op) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.912578] (-) TimerEvent: {}
+[4.012946] (-) TimerEvent: {}
+[4.113326] (-) TimerEvent: {}
+[4.213704] (-) TimerEvent: {}
+[4.314001] (-) TimerEvent: {}
+[4.414388] (-) TimerEvent: {}
+[4.514739] (-) TimerEvent: {}
+[4.615033] (-) TimerEvent: {}
+[4.715399] (-) TimerEvent: {}
+[4.815773] (-) TimerEvent: {}
+[4.916088] (-) TimerEvent: {}
+[5.016478] (-) TimerEvent: {}
+[5.116860] (-) TimerEvent: {}
+[5.217244] (-) TimerEvent: {}
+[5.317635] (-) TimerEvent: {}
+[5.418033] (-) TimerEvent: {}
+[5.518448] (-) TimerEvent: {}
+[5.618750] (-) TimerEvent: {}
+[5.719105] (-) TimerEvent: {}
+[5.819500] (-) TimerEvent: {}
+[5.919877] (-) TimerEvent: {}
+[6.020256] (-) TimerEvent: {}
+[6.120637] (-) TimerEvent: {}
+[6.221034] (-) TimerEvent: {}
+[6.321410] (-) TimerEvent: {}
+[6.421786] (-) TimerEvent: {}
+[6.522181] (-) TimerEvent: {}
+[6.622489] (-) TimerEvent: {}
+[6.722859] (-) TimerEvent: {}
+[6.823228] (-) TimerEvent: {}
+[6.923632] (-) TimerEvent: {}
+[7.024032] (-) TimerEvent: {}
+[7.124401] (-) TimerEvent: {}
+[7.185151] (tb3_op) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tb3_op_node\x1b[0m\n'}
+[7.224589] (-) TimerEvent: {}
+[7.324889] (-) TimerEvent: {}
+[7.425309] (-) TimerEvent: {}
+[7.525692] (-) TimerEvent: {}
+[7.626061] (-) TimerEvent: {}
+[7.647519] (tb3_op) StdoutLine: {'line': b'[100%] Built target tb3_op_node\n'}
+[7.655538] (tb3_op) CommandEnded: {'returncode': 0}
+[7.673098] (tb3_op) JobProgress: {'identifier': 'tb3_op', 'progress': 'install'}
+[7.681143] (tb3_op) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/meip-users/tb3_op/build/tb3_op'], 'cwd': '/home/meip-users/tb3_op/build/tb3_op', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'meip-users'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/meip-users'), ('OLDPWD', '/home/meip-users/tb3_op/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1858'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'meip-users'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'meip-users'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/meip-users/.cargo/bin:/home/meip-users/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/MEIP-PC:@/tmp/.ICE-unix/1839,unix/MEIP-PC:/tmp/.ICE-unix/1839'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0a159447_c3b2_4f54_a9d6_72499da81ade'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.224'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '57'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/meip-users/tb3_op/build/tb3_op'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.688125] (tb3_op) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.688565] (tb3_op) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.688772] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/lib/tb3_op/tb3_op_node\n'}
+[7.688910] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/package_run_dependencies/tb3_op\n'}
+[7.689012] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/parent_prefix_path/tb3_op\n'}
+[7.689113] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.sh\n'}
+[7.689213] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.dsv\n'}
+[7.689381] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.sh\n'}
+[7.689509] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.dsv\n'}
+[7.689584] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.bash\n'}
+[7.689661] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.sh\n'}
+[7.689755] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.zsh\n'}
+[7.689870] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.dsv\n'}
+[7.689953] (tb3_op) StdoutLine: {'line': b'-- Symlinking: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.dsv\n'}
+[7.696803] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/packages/tb3_op\n'}
+[7.696939] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig.cmake\n'}
+[7.696989] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig-version.cmake\n'}
+[7.697043] (tb3_op) StdoutLine: {'line': b'-- Up-to-date symlink: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.xml\n'}
+[7.698566] (tb3_op) CommandEnded: {'returncode': 0}
+[7.726173] (-) TimerEvent: {}
+[7.799807] (tb3_op) JobEnded: {'identifier': 'tb3_op', 'rc': 0}
+[7.800309] (-) EventReactorShutdown: {}
