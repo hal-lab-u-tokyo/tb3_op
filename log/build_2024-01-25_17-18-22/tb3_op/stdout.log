@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o[0m
+[32m[1mLinking CXX executable tb3_op_node[0m
+Built target tb3_op_node
+-- Install configuration: ""
+-- Installing: /home/meip-users/tb3_op/install/tb3_op/lib/tb3_op/tb3_op_node
+-- Set runtime path of "/home/meip-users/tb3_op/install/tb3_op/lib/tb3_op/tb3_op_node" to ""
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/package_run_dependencies/tb3_op
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/parent_prefix_path/tb3_op
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.sh
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.sh
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.dsv
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.bash
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.sh
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.zsh
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.dsv
+-- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.dsv
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/packages/tb3_op
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig.cmake
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig-version.cmake
+-- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.xml

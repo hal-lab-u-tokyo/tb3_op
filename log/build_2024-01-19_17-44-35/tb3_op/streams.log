@@ -1,0 +1,34 @@
+[0.054s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target tb3_op_node[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o[0m
+[1.801s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.801s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:202:12:[m[K [01;31m[Kerror: [m[K‘[01m[KQoS[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::QoS[m[K’?
+[1.802s]   202 |    "scan", [01;31m[KQoS[m[K(1).best_effort(), realScanCallback);
+[1.802s]       |            [01;31m[K^~~[m[K
+[1.802s]       |            [32m[Krclcpp::QoS[m[K
+[1.802s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.802s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.802s]                  from [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:7[m[K:
+[1.802s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:110:21:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::QoS[m[K’ declared here
+[1.802s]   110 | class RCLCPP_PUBLIC [01;36m[KQoS[m[K
+[1.802s]       |                     [01;36m[K^~~[m[K
+[3.723s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K At global scope:
+[3.723s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:136:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[3.723s]   136 | static void [01;35m[KscanCallback[m[K(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
+[3.723s]       |             [01;35m[K^~~~~~~~~~~~[m[K
+[3.723s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:30:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid write_csv(double*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[3.723s]    30 | static void [01;35m[Kwrite_csv[m[K(double* time_list){
+[3.723s]       |             [01;35m[K^~~~~~~~~[m[K
+[3.744s] gmake[2]: *** [CMakeFiles/tb3_op_node.dir/build.make:76: CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o] Error 1
+[3.744s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_op_node.dir/all] Error 2
+[3.744s] gmake: *** [Makefile:146: all] Error 2
+[3.746s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8

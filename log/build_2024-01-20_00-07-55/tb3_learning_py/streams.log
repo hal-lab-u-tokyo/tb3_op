@@ -1,0 +1,24 @@
+[0.589s] Invoking command in '/home/meip-users/tb3_op/src/tb3_learning_py': PYTHONPATH=/home/meip-users/tb3_op/build/tb3_learning_py/prefix_override:/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_learning_py build --build-base /home/meip-users/tb3_op/build/tb3_learning_py/build install --record /home/meip-users/tb3_op/build/tb3_learning_py/install.log --single-version-externally-managed
+[0.778s] running egg_info
+[0.779s] writing ../../build/tb3_learning_py/tb3_learning_py.egg-info/PKG-INFO
+[0.779s] writing dependency_links to ../../build/tb3_learning_py/tb3_learning_py.egg-info/dependency_links.txt
+[0.779s] writing entry points to ../../build/tb3_learning_py/tb3_learning_py.egg-info/entry_points.txt
+[0.779s] writing requirements to ../../build/tb3_learning_py/tb3_learning_py.egg-info/requires.txt
+[0.779s] writing top-level names to ../../build/tb3_learning_py/tb3_learning_py.egg-info/top_level.txt
+[0.781s] reading manifest file '../../build/tb3_learning_py/tb3_learning_py.egg-info/SOURCES.txt'
+[0.782s] writing manifest file '../../build/tb3_learning_py/tb3_learning_py.egg-info/SOURCES.txt'
+[0.782s] running build
+[0.782s] running build_py
+[0.782s] copying tb3_learning_py/tb3_learning_py.py -> /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py
+[0.783s] running install
+[0.783s] running install_lib
+[0.784s] copying /home/meip-users/tb3_op/build/tb3_learning_py/build/lib/tb3_learning_py/tb3_learning_py.py -> /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py
+[0.784s] byte-compiling /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py/tb3_learning_py.py to tb3_learning_py.cpython-310.pyc
+[0.787s] running install_data
+[0.788s] running install_egg_info
+[0.789s] removing '/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.790s] Copying ../../build/tb3_learning_py/tb3_learning_py.egg-info to /home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages/tb3_learning_py-0.0.0-py3.10.egg-info
+[0.790s] running install_scripts
+[0.807s] Installing tb3_learning_py script to /home/meip-users/tb3_op/install/tb3_learning_py/lib/tb3_learning_py
+[0.807s] writing list of installed files to '/home/meip-users/tb3_op/build/tb3_learning_py/install.log'
+[0.826s] Invoked command in '/home/meip-users/tb3_op/src/tb3_learning_py' returned '0': PYTHONPATH=/home/meip-users/tb3_op/build/tb3_learning_py/prefix_override:/home/meip-users/tb3_op/install/tb3_learning_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_learning_py build --build-base /home/meip-users/tb3_op/build/tb3_learning_py/build install --record /home/meip-users/tb3_op/build/tb3_learning_py/install.log --single-version-externally-managed

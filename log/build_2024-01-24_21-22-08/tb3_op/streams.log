@@ -1,0 +1,32 @@
+[0.156s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[0.253s] [35m[1mConsolidate compiler generated dependencies of target tb3_op_node[0m
+[0.303s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o[0m
+[10.452s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:150:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid realScanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[10.452s]   150 | static void [01;35m[KrealScanCallback[m[K(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
+[10.452s]       |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[10.453s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:30:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid write_csv(double*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[10.453s]    30 | static void [01;35m[Kwrite_csv[m[K(double* time_list){
+[10.453s]       |             [01;35m[K^~~~~~~~~[m[K
+[20.714s] [100%] [32m[1mLinking CXX executable tb3_op_node[0m
+[21.961s] [100%] Built target tb3_op_node
+[21.982s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[22.042s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op
+[22.054s] -- Install configuration: ""
+[22.054s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/lib/tb3_op/tb3_op_node
+[22.067s] -- Set runtime path of "/home/meip-users/tb3_op/install/tb3_op/lib/tb3_op/tb3_op_node" to ""
+[22.068s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/package_run_dependencies/tb3_op
+[22.068s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/parent_prefix_path/tb3_op
+[22.068s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.sh
+[22.068s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/ament_prefix_path.dsv
+[22.068s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.sh
+[22.068s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/environment/path.dsv
+[22.068s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.bash
+[22.068s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.sh
+[22.068s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.zsh
+[22.069s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/local_setup.dsv
+[22.069s] -- Installing: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.dsv
+[22.069s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/ament_index/resource_index/packages/tb3_op
+[22.069s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig.cmake
+[22.069s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/cmake/tb3_opConfig-version.cmake
+[22.069s] -- Up-to-date: /home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.xml
+[22.071s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op

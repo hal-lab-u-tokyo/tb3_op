@@ -1,0 +1,200 @@
+[0.783s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'tb3_op']
+[0.783s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['tb3_op'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fce0e3291b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fce0e3b2590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fce0e3b2590>>)
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.818s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/meip-users/tb3_op'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extension 'ignore'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extension 'ignore_ament_install'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extensions ['colcon_pkg']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extension 'colcon_pkg'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extensions ['colcon_meta']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extension 'colcon_meta'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extensions ['ros']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extension 'ros'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extensions ['cmake', 'python']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extension 'cmake'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extension 'python'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extensions ['python_setup_py']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(deep_q_network) by extension 'python_setup_py'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_learning_py) by extensions ['ignore', 'ignore_ament_install']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_learning_py) by extension 'ignore'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_learning_py) by extension 'ignore_ament_install'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_learning_py) by extensions ['colcon_pkg']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_learning_py) by extension 'colcon_pkg'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_learning_py) by extensions ['colcon_meta']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_learning_py) by extension 'colcon_meta'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_learning_py) by extensions ['ros']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_learning_py) by extension 'ros'
+[0.833s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_learning_py' with type 'ros.ament_python' and name 'tb3_learning_py'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_op) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_op) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_op) by extension 'ignore_ament_install'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_op) by extensions ['colcon_pkg']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_op) by extension 'colcon_pkg'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_op) by extensions ['colcon_meta']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_op) by extension 'colcon_meta'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_op) by extensions ['ros']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_op) by extension 'ros'
+[0.833s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_op' with type 'ros.ament_cmake' and name 'tb3_op'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sq) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sq) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sq) by extension 'ignore_ament_install'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sq) by extensions ['colcon_pkg']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sq) by extension 'colcon_pkg'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sq) by extensions ['colcon_meta']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sq) by extension 'colcon_meta'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sq) by extensions ['ros']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/tb3_sq) by extension 'ros'
+[0.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tb3_sq' with type 'ros.ament_cmake' and name 'tb3_sq'
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.834s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.883s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tb3_learning_py' in 'src/tb3_learning_py'
+[0.883s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tb3_sq' in 'src/tb3_sq'
+[0.905s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.905s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.928s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/meip-users/tb3_op/install
+[0.949s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'tb3_op' build argument 'cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'tb3_op' build argument 'cmake_target' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'tb3_op' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'tb3_op' build argument 'cmake_clean_cache' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'tb3_op' build argument 'cmake_clean_first' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'tb3_op' build argument 'cmake_force_configure' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'tb3_op' build argument 'ament_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'tb3_op' build argument 'catkin_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'tb3_op' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.027s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_op' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meip-users/tb3_op/build/tb3_op', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meip-users/tb3_op/install/tb3_op', 'merge_install': False, 'path': '/home/meip-users/tb3_op/src/tb3_op', 'symlink_install': False, 'test_result_base': None}
+[1.039s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.051s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.051s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/meip-users/tb3_op/src/tb3_op' with build type 'ament_cmake'
+[1.052s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/meip-users/tb3_op/src/tb3_op'
+[1.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.064s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.064s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[9.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[9.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op
+[9.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_op)
+[9.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --install /home/meip-users/tb3_op/build/tb3_op
+[9.836s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op' for CMake module files
+[9.837s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op' for CMake config files
+[9.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_op', 'cmake_prefix_path')
+[9.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/hook/cmake_prefix_path.ps1'
+[9.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/hook/cmake_prefix_path.dsv'
+[9.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/hook/cmake_prefix_path.sh'
+[9.849s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/lib'
+[9.849s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/bin'
+[9.849s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/lib/pkgconfig/tb3_op.pc'
+[9.850s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/lib/python3.10/site-packages'
+[9.850s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/bin'
+[9.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.ps1'
+[9.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.dsv'
+[9.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.sh'
+[9.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.bash'
+[9.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.zsh'
+[9.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meip-users/tb3_op/install/tb3_op/share/colcon-core/packages/tb3_op)
+[9.893s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_op)
+[9.904s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op' for CMake module files
+[9.904s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op' for CMake config files
+[9.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_op', 'cmake_prefix_path')
+[9.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/hook/cmake_prefix_path.ps1'
+[9.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/hook/cmake_prefix_path.dsv'
+[9.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/hook/cmake_prefix_path.sh'
+[9.917s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/lib'
+[9.917s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/bin'
+[9.917s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/lib/pkgconfig/tb3_op.pc'
+[9.917s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/lib/python3.10/site-packages'
+[9.917s] Level 1:colcon.colcon_core.environment:checking '/home/meip-users/tb3_op/install/tb3_op/bin'
+[9.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.ps1'
+[9.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.dsv'
+[9.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.sh'
+[9.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.bash'
+[9.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/meip-users/tb3_op/install/tb3_op/share/tb3_op/package.zsh'
+[9.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meip-users/tb3_op/install/tb3_op/share/colcon-core/packages/tb3_op)
+[9.930s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.930s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.930s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.930s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.948s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.949s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.957s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.968s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meip-users/tb3_op/install/local_setup.ps1'
+[9.969s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/meip-users/tb3_op/install/_local_setup_util_ps1.py'
+[9.970s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meip-users/tb3_op/install/setup.ps1'
+[9.982s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meip-users/tb3_op/install/local_setup.sh'
+[9.982s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/meip-users/tb3_op/install/_local_setup_util_sh.py'
+[9.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meip-users/tb3_op/install/setup.sh'
+[9.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meip-users/tb3_op/install/local_setup.bash'
+[9.994s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meip-users/tb3_op/install/setup.bash'
+[10.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meip-users/tb3_op/install/local_setup.zsh'
+[10.007s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meip-users/tb3_op/install/setup.zsh'

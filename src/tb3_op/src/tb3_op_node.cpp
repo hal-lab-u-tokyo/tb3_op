@@ -43,8 +43,10 @@ static void go_forward(void) {
 }
 
 static void right_forward(void) {
-  cmd_vel.linear.x = 0.2f;
-  cmd_vel.angular.z = -1.0f;
+  //cmd_vel.linear.x = 0.2f;
+  //cmd_vel.angular.z = -1.0f;
+  cmd_vel.linear.x = 0.0f;
+  cmd_vel.angular.z = -0.5f;
   return;
 }
 
@@ -55,8 +57,10 @@ static void right_rotation(void) {
 }
 
 static void left_forward(void) {
-  cmd_vel.linear.x = 0.2f;
-  cmd_vel.angular.z = 1.0f;
+  //cmd_vel.linear.x = 0.2f;
+  //cmd_vel.angular.z = 1.0f;
+  cmd_vel.linear.x = 0.0f;
+  cmd_vel.angular.z = 0.5f;
   return;
 }
 
@@ -91,6 +95,7 @@ static void moveCallback(const std_msgs::msg::Int32::UniquePtr msg) {
     stopped = false;
   }
 
+  //msg->data = 3;
 
   if (msg->data == 0){
     go_forward();
@@ -109,15 +114,17 @@ static void moveCallback(const std_msgs::msg::Int32::UniquePtr msg) {
   }
   else if (msg->data == 99){
     tb3_stop();
-    if (stopped == false){
-      printf("collision occured:recovering...\n");
-      RCLCPP_INFO(node->get_logger(), "end_time: '%d'", msg->data);
-      time_list[1] = system_clock.now().seconds();
-      printf("%lf", time_list[1] - time_list[0]);
-      write_csv(time_list);
-      time_list[0] = time_list[1];
-      RCLCPP_INFO(node->get_logger(), "start_time: '%d'", msg->data);
-    }
+   
+    // if (stopped == false){
+    //   printf("collision occured:recovering...\n");
+    //   RCLCPP_INFO(node->get_logger(), "end_time: '%d'", msg->data);
+    //   time_list[1] = system_clock.now().seconds();
+    //   printf("%lf", time_list[1] - time_list[0]);
+    //   write_csv(time_list);
+    //   time_list[0] = time_list[1];
+    //   RCLCPP_INFO(node->get_logger(), "start_time: '%d'", msg->data);
+    // }
+
     stopped = true;
   }
   else if (msg->data == 100){
@@ -134,10 +141,20 @@ static void moveCallback(const std_msgs::msg::Int32::UniquePtr msg) {
 static void scanCallback(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
   int i;
   for (i = 0; i < 360; i++) {
+    // unity空間は0.1倍の広さなので10倍する
+    scan_data.ranges[i] = 10 * msg->ranges[i];
+  }
+  return;
+}
+
+static void realScanCallback(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
+  int i;
+  for (i = 0; i < 360; i++) {
     scan_data.ranges[i] = msg->ranges[i];
   }
   return;
 }
+
 
 
 
@@ -182,8 +199,13 @@ int main(int argc, char ** argv)
       
   //auto subscriber = node->create_subscription<geometry_msgs::msg::Twist>(
   //  buffer[1], 1, topic_callback);
+  // auto dis_subscriber = node->create_subscription<sensor_msgs::msg::LaserScan>(
+  //   buffer[2], 1, scanCallback);
+
+  
   auto dis_subscriber = node->create_subscription<sensor_msgs::msg::LaserScan>(
-    buffer[2], 1, scanCallback);
+  "scan", rclcpp::QoS(1).best_effort(), realScanCallback);
+  
 
   auto dir_subscriber = node->create_subscription<std_msgs::msg::Int32>(
     "cmd_dir", 1, moveCallback);
@@ -199,8 +221,9 @@ int main(int argc, char ** argv)
       dis_arr.data[i] = scan_data.ranges[i];
     }
     static geometry_msgs::msg::Twist new_cmd_vel;
-    new_cmd_vel.linear.x = 0.2 * cmd_vel.linear.x;
-    new_cmd_vel.angular.z = 4.0f / 9.0f * cmd_vel.angular.z;
+    new_cmd_vel.linear.x =  0.202 * cmd_vel.linear.x;
+    new_cmd_vel.angular.z = 0.4443 * cmd_vel.angular.z;
+    //0.3, /2.42
 
     vel_publisher->publish(cmd_vel);
     real_publisher->publish(new_cmd_vel);

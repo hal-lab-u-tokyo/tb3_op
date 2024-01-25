@@ -1,0 +1,17 @@
+[0.055s] Invoking command in '/home/meip-users/tb3_op/build/tb3_op': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o[0m
+[1.885s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.885s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:201:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto dis_subscriber[m[K’
+[1.885s]   201 |   auto [01;31m[Kdis_subscriber[m[K = node->create_subscription<sensor_msgs::msg::LaserScan>(
+[1.885s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.885s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:197:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::LaserScan_<std::allocator<void> >, sensor_msgs::msg::LaserScan_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > > > dis_subscriber[m[K’
+[1.885s]   197 |   auto [01;36m[Kdis_subscriber[m[K = node->create_subscription<sensor_msgs::msg::LaserScan>(
+[1.885s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.436s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K At global scope:
+[4.436s] [01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:30:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid write_csv(double*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[4.436s]    30 | static void [01;35m[Kwrite_csv[m[K(double* time_list){
+[4.436s]       |             [01;35m[K^~~~~~~~~[m[K
+[4.464s] gmake[2]: *** [CMakeFiles/tb3_op_node.dir/build.make:76: CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o] Error 1
+[4.464s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_op_node.dir/all] Error 2
+[4.464s] gmake: *** [Makefile:146: all] Error 2
+[4.466s] Invoked command in '/home/meip-users/tb3_op/build/tb3_op' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meip-users/tb3_op/install/tb3_learning_py:/opt/ros/humble /usr/bin/cmake --build /home/meip-users/tb3_op/build/tb3_op -- -j8 -l8

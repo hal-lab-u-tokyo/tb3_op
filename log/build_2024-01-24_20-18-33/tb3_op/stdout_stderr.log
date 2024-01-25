@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o[0m
+[01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K In function ‘[01m[Kvoid moveCallback(std_msgs::msg::Int32_<std::allocator<void> >::UniquePtr)[m[K’:
+[01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:94:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   94 |   msg->data = 0
+      |                [01;31m[K^[m[K
+      |                [32m[K;[m[K
+   95 | 
+   96 |   [32m[Kif[m[K (msg->data == 0){
+      |   [32m[K~~[m[K            
+[01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:99:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   99 |   [01;31m[Kelse[m[K if (msg->data == 1){
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:[m[K At global scope:
+[01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:146:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid realScanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  146 | static void [01;35m[KrealScanCallback[m[K(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
+      |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:39:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid go_forward()[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   39 | static void [01;35m[Kgo_forward[m[K(void) {
+      |             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/meip-users/tb3_op/src/tb3_op/src/tb3_op_node.cpp:30:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid write_csv(double*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   30 | static void [01;35m[Kwrite_csv[m[K(double* time_list){
+      |             [01;35m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tb3_op_node.dir/build.make:76: CMakeFiles/tb3_op_node.dir/src/tb3_op_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb3_op_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

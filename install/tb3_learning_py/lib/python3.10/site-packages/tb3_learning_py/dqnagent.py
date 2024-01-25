@@ -38,7 +38,7 @@ class DeepQNetworkAgent(FNAgent):
     def initialize(self, experiences, optimizer):
         feature_shape = experiences[0].s.shape
         self.make_model(feature_shape)
-        self.model.compile(optimizer, loss="mse")
+        self.model.compile(optimizer, loss="Huber")
         self.initialized = True
         print("Done initialization. From now, begin training!")
 

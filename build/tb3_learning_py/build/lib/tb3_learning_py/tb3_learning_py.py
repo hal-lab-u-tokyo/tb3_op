@@ -251,7 +251,7 @@ class ActionPublisher(Node):
         print("all steps:" , all_steps)
 
         #TODO:繰り返し回数の設定
-        if all_steps > 30000:
+        if all_steps > 10000:
             if learning_stop == False:
                 self.agent.model.save(self.path)
                 reward_csv_path = "/home/meip-users/tb3_op/data/result.csv"
@@ -268,6 +268,8 @@ class ActionPublisher(Node):
 
             if not learning_stop:
                 #self.get_logger().info('runnningggggg')
+                if sim_state_flag == WAITSTOP and robot_state_flag == WAITRESET:
+                    self.done = True
 
                 if robot_state_flag == WAITSTOP and sim_state_flag == WAITSTOP:                    
                     #既存コードのtrain_loopに対応。
@@ -291,7 +293,16 @@ class ActionPublisher(Node):
                         #step_countの更新はbest_action_learning関数内で行う
 
                 if self.done:
+                    #停止命令を送信
+                    send_msg = Int32()
+                    #print("ba:", best_action)
+                    #print("batype:", type(best_action))
+                    send_msg.data = 99
+                    self.publisher_.publish(send_msg)
+                    self.get_logger().info('Publishing: "%d"' % send_msg.data)
+
                     self.do_ifdone()
+                    
 
     def msg2state(self, given_dis_list, given_current_tf, given_goal_tf):
         global is_goal
@@ -371,24 +382,25 @@ class ActionPublisher(Node):
         #reward = reward * 10 / (episode_count // 100 + 10)
         #reward = 0
 
+        self.done = False
+
         if self.step_count > 200:
             print("too long episode detected")
             current_tf[0] = 0.2
             current_tf[1] = 0.2
             #reward -= 50
-            done = True
+            self.done = True
 
 
-        # collision : 0.2m以下とする
-        self.done = False
-        if np.min(np_dis_list[np.nonzero(np_dis_list)]) < 0.02:
+        # collision : 0.1m以下とする
+        if np.min(np_dis_list[np.nonzero(np_dis_list)]) < 0.1:
             print("!collision!")
             reward -= 30 * (1. - 1./(self.goal_count // 10 + 2))
             self.done = True
         
         #ゴール判定を初期は広げるというアプローチ。これ自体は悪くないがやや目的とずれる気もするので保留
         #goal_rad = 0.03 + 10. / (goal_count + 10.)
-        goal_rad = 1.5
+        goal_rad = 3.0
         if np.linalg.norm(target_vector) < goal_rad :
             print("!goal!")
             reward += 500
@@ -482,7 +494,7 @@ class ActionPublisher(Node):
 
             
         #ロボットが動いていてシミュレーターも動いているなら、まずシミュレータを待機状態にする。またエピソード終了の処理を実行
-        elif sim_state_flag == WAITSTOP and robot_state_flag == WAITSTOP:
+        elif sim_state_flag == WAITSTOP and (robot_state_flag == WAITSTOP or robot_state_flag == WAITRESET):
             sim_state_flag = WAITRESET
             self.get_logger().info('Control stopped. sim_state: "%d"' % sim_state_flag)
 
